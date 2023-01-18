@@ -1,0 +1,177 @@
+.fondo {
+  height: 220vh;
+  background-color: #d7d3c5;
+}
+
+.mozzarella {
+  height: 350px;
+  background-image: linear-gradient(
+      to top,
+      rgba(250, 192, 112, 0.486) 0%,
+      rgba(171, 151, 40, 0.251) 100%
+    ),
+    url(../img/mozzarella.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.9;
+}
+
+.box_container {
+  margin: 40px;
+}
+
+.box_texto_direccion {
+  padding-top: 40px;
+  font-size: 15px;
+  letter-spacing: 1.5px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.mapa {
+  margin-top: 20px;
+}
+
+.box_logo_reserva {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.logo_reserva {
+  width: 200px;
+}
+
+/*form reservas*/
+
+.reserva-form {
+  text-align: center;
+}
+
+.btn-reserva {
+  margin-top: 15px;
+  background: #92bf24;
+  border: none;
+  border-radius: 0px;
+  color: #3d5602;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.btn-reserva:hover {
+  background: #a6d82c;
+}
+
+/*form contacto*/
+
+.templatemo_contactform {
+  margin-top: 50px;
+}
+
+.templatemo_contacttitle {
+  width: 100%;
+  margin-bottom: 10px;
+  font-size: 32px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+}
+
+.templatemo_sub_contacttitle {
+  width: 100%;
+  font-size: 22px;
+  color: #91bf24;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.mensaje {
+  margin-bottom: 5px;
+}
+
+.templatemo_contactform input,
+textarea {
+  width: 100%;
+  background: #282828;
+  border: 1px solid #393939;
+  padding: 7px 10px;
+  margin: 0px 0px 10px 0px;
+  background-color: #fafafa;
+}
+
+.templatemo_contactform textarea {
+  height: 100px;
+}
+
+.templatemo_contactform .btn-primary {
+  background: #92bf24;
+  border: none;
+  border-radius: 0px;
+  color: #3d5602;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.templatemo_contactform .btn-primary:hover {
+  background: #a6d82c;
+}
+
+@media (max-width: 1157px) {
+  .footer {
+    flex-direction: column;
+  }
+
+  #button-scroll-top {
+    font-size: 3rem;
+    bottom: 1vh;
+    right: 1px;
+  }
+}
+
+@media (max-width: 1105px) {
+  .menu {
+    display: none;
+  }
+  .menu-desplegable {
+    width: 375px;
+  }
+
+  .hamburger {
+    visibility: visible;
+  }
+
+  .mozzarella {
+    background-attachment: initial;
+  }
+}
+
+@media (max-width: 760px) {
+  .menu-desplegable {
+    width: 100%;
+  }
+
+  .footer {
+    height: 700px;
+  }
+
+  .contenedor-menu-footer {
+    flex-direction: column;
+  }
+
+  #logo-footer {
+    width: 250px;
+  }
+
+  .contenedor-logo-footer {
+    width: 280px;
+  }
+}
+
+@media (max-width: 445px) {
+  .fondo {
+    height: 250vh;
+  }
+}

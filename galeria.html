@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galeria</title>
+
+  <!--link para css-->
+  <link rel="stylesheet" href="css/nav_footer_bs_md.css">
+  <link rel="stylesheet" href="css/galeria.css">
+
+  <!--glides.js libreria para hacer el slider-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.7/glider.min.css">
+
+  <!--link para scrollreveal-->
+  <script src="js/scrollreveal.js"></script>
+
+  <!--link para los iconos de boxicons-->
+  <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+  <!--link para la fuente montserrat-->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <section class="fondo">
+
+    <header>
+      <!--Menu Mobile-->
+      <div class="container-header">
+        <div class="hamburger"><i class='bx bx-menu'></i></div>
+        <nav class="menu-desplegable">
+          <a href="index.html"><i class='bx bxs-home-smile'></i>&nbsp;HOME</a>
+          <a href="carta.html">CARTA</a>
+          <a href="eventos.html">EVENTOS</a>
+          <a href="contacto.html">CONTACTO Y RESERVAS</a>
+        </nav>
+        <!--Menu de navegación-->
+        <nav class="menu">
+          <ul>
+            <a href="index.html">
+              <li><i class='bx bxs-home-smile'></i>&nbsp;HOME</li>
+            </a>
+            <a href="carta.html">
+              <li>CARTA</li>
+            </a>
+          </ul>
+
+          <a href="index.html"><img id="logo" src="img/bonta.png"></a>
+
+          <ul>
+            <a href="eventos.html">
+              <li>EVENTOS</li>
+            </a>
+            <a href="contacto.html">
+              <li>CONTACTO</li>
+            </a>
+          </ul>
+        </nav>
+
+    </header>
+
+    <!--banner-->
+    <div class="tomates"></div>
+
+    <!--carousel/slider-->
+    <div class="contenedor">
+
+      <div class="texto">
+        Ven a disfrutar de nuestras delicias <br>
+        <span class="subtexto">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic, veniam. Lorem, ipsum dolor
+          sit amet consectetur adipisicing elit. Ea perspiciatis, ut aliquam illum fugit amet tempore reprehenderit
+          vitae culpa voluptate, ad recusandae eum laudantium obcaecati voluptatem non soluta explicabo. Animi iusto
+          quasi accusantium, sint voluptatem eveniet quas quam quaerat, alias eaque nihil ducimus. Praesentium,
+          assumenda a vel cupiditate quae recusandae.</span>
+      </div>
+
+      <div class="carousel">
+        <div class="carousel__contenedor">
+
+          <button aria-label="Anterior" class="carousel__anterior">
+            <i class='bx bx-chevron-left'></i>
+          </button>
+
+          <div class="carousel__lista">
+
+            <div class="carousel__elemento">
+              <img src="img/carbonara.jpg" class="platos">
+              <p>Carbonara</p>
+            </div>
+
+            <div class="carousel__elemento">
+              <img src="img/arrabbiata.jpg" class="platos">
+              <p>Arrabbiata</p>
+            </div>
+
+            <div class="carousel__elemento">
+              <img src="img/ragu.jpg" class="platos">
+              <p>Ragu</p>
+            </div>
+
+            <div class="carousel__elemento">
+              <img src="img/allo-scoglio.jpg" class="platos">
+              <p>Allo Scoglio</p>
+            </div>
+
+            <div class="carousel__elemento">
+              <img src="img/pesto.jpg" class="platos">
+              <p>Pesto</p>
+            </div>
+
+            <div class="carousel__elemento">
+              <img src="img/pomodoro.jpg" class="platos">
+              <p>Pomodoro</p>
+            </div>
+
+          </div>
+
+          <button aria-label="Siguiente" class="carousel__siguiente">
+            <i class='bx bx-chevron-right'></i>
+          </button>
+
+        </div>
+        <div role="tablist" class="carousel__indicadores"></div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!--footer-->
+
+  <div class="footer">
+
+    <div class="contenedor-logo-footer boxes">
+      <a href="#"><img id="logo-footer" src="img/bonta.png"></a>
+    </div>
+
+    <div class="contenedor-menu-footer boxes">
+      <div class="horarios boxes">
+        <div class="horario-cocina">
+          <div class="horario">Horario Cocina:</div>
+          <div class="horario2">Martes a Sabado <br>
+            de 12:00 a 17:00 <br>
+            de 19:00 a 23:00</div>
+        </div>
+
+        <div class="horario-local">
+          <div class="horario">Horario Local:</div>
+          <div class="horario2">Martes a Sabado <br>
+            de 12:00 a 00:00</div>
+        </div>
+      </div>
+
+      <div class="direccion-contacto boxes">
+        <div class="direccion1">
+          <div class="direccion2">Dirección:</div>
+          <div class="direccion3">C/ XXXXXXX, 24, 46022
+            Valencia</div>
+        </div>
+
+        <div class="contactos">
+          <div class="contacto">Contacto:</div>
+          <div class="contacto2">+34 XXXXXXXX
+            xxxx@xxxx.es</div>
+        </div>
+      </div>
+
+      <div class="redes-politicas boxes">
+        <div class="redes">
+          <div class="contenedor-redes">
+            <div class="redes-sociales">Redes Sociales:</div>
+            <div class="redes-sociales2">
+              <div class="facebook"><a href="https://es-es.facebook.com/" target="_blank"><i
+                    class='bx bxl-facebook'></i></a></div>
+              <div class="instagram"><a href="https://www.instagram.com/" target="_blank" class="social-media-icon"><i
+                    class='bx bxl-instagram'></i></a></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="politicas">
+          <button class="boton"><a href="politica_de_privacidad.html">POLÍTICA DE PRIVACIDAD Y AVISO
+              LEGAL</a></button>
+        </div>
+      </div>
+    </div>
+
+    <!--button-scroll-top-->
+
+    <div id="button-scroll-top"><i class='bx bx-chevron-up-square'></i></div>
+
+  </div>
+
+
+  <script src="js/galeriascript.js"></script>
+
+  <!--glides.js-->
+  <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.7/glider.min.js"></script>
+
+</body>
+
+</html>

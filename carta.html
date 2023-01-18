@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carta</title>
+
+  <!--link para css-->
+  <link rel="stylesheet" href="css/nav_footer_bs_md.css">
+  <link rel="stylesheet" href="css/carta.css">
+  <link rel="stylesheet" href="css/menu-cart.css">
+
+  <!--link para scrollreveal-->
+  <script src="js/scrollreveal.js"></script>
+
+  <!--link para los iconos de boxicons-->
+  <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+  <!--link para la fuente montserrat-->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" /> -->
+</head>
+
+<body>
+  <section class="fondo">
+    <header>
+      <div class="container-header">
+
+        <!--Menu Cambio Ingredientes-->
+        <div class="food-menu-icon" onclick="openNav()"><i class='bx bx-food-menu'></i></div>
+
+        <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <div class="dish-list">
+          </div>
+        </div>
+
+        <!--Menu Mobile-->
+        <div class="hamburger"><i class='bx bx-menu'></i></div>
+
+        <nav class="menu-desplegable">
+          <a href="index.html"><i class='bx bxs-home-smile'></i>&nbsp;HOME</a>
+          <a href="galeria.html">GALERIA</a>
+          <a href="eventos.html">EVENTOS</a>
+          <a href="contacto.html">CONTACTO Y RESERVAS</a>
+        </nav>
+
+        <!--Menu de navegación-->
+        <nav class="menu">
+          <ul>
+
+            <a href="index.html">
+              <li><i class='bx bxs-home-smile'></i>&nbsp;HOME</li>
+            </a>
+            <a href="galeria.html">
+              <li>GALERIA</li>
+            </a>
+
+          </ul>
+
+          <a href="index.html"><img id="logo" src="img/bonta.png"></a>
+          <ul>
+            <a href="eventos.html">
+              <li>EVENTOS</li>
+            </a>
+            <a href="contacto.html">
+              <li>CONTACTO</li>
+            </a>
+          </ul>
+        </nav>
+      </div>
+
+    </header>
+
+    <!--banner-->
+    <div class="verduras"></div>
+    <div class="container-menu">
+      <!--primer bloque-->
+      <div class="menu-section">
+        <div class="section-title">
+          <div class="carta">CARTA</div>
+        </div>
+
+        <!-- Platos -->
+        <div class="menu-items">
+
+        </div>
+      </div>
+      <!--segundo bloque-->
+      <div class="menu-section">
+        <div class="section-title">
+          <div class="carta carta-2">MENU DEL DÍA</div>
+        </div>
+
+        <div class="menu-items2">
+
+          <div class="menu-completo1">
+            <div class="mc-cabecera">
+              <h2 class="mc">Menú Completo: 28€</h2>
+            </div>
+            <div class="text-menu-completo">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate neque nam quibusdam. Earum
+              consequuntur ipsum omnis. Inventore explicabo odit repudiandae laudantium, optio molestias quas fuga saepe
+              reiciendis autem! Unde, itaque. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat eaque
+              culpa, minima facilis aspernatur harum corporis. Nesciunt consectetur minus assumenda temporibus tempora
+              possimus, id quia sequi suscipit reprehenderit distinctio ducimus.
+            </div>
+
+          </div>
+          <div class="menu-completo2">
+            <div class="mc-cabecera mc-cabecera35">
+              <h2 class="mc">Menú Completo: 35€</h2>
+            </div>
+            <div class="text-menu-completo">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate neque nam quibusdam. Earum
+              consequuntur ipsum omnis. Inventore explicabo odit repudiandae laudantium, optio molestias quas fuga saepe
+              reiciendis autem! Unde, itaque. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat eaque
+              culpa, minima facilis aspernatur harum corporis. Nesciunt consectetur minus assumenda temporibus tempora
+              possimus, id quia sequi suscipit reprehenderit distinctio ducimus.
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+      <!--tercer bloque-->
+      <div class="menu-section">
+        <div class="section-title">
+          <div class="carta carta-3">MENU GRUPOS</div>
+        </div>
+
+        <div class="menu-items3">
+
+          <div class="mm-cabecera">
+            <h2 class="mm-precio">Precio: 35€</h2>
+          </div>
+
+          <div class="text-menu-grupos">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit facere dolore
+            natus cupiditate architecto
+            aut at earum, rerum molestiae iure minus porro amet ut, corrupti dolorum ipsa modi, maxime numquam.
+            Eligendi fugiat voluptatum hic illo at? Repellat, sint. Dolor quasi odit aliquam, earum dolores omnis
+            accusamus dignissimos recusandae minus culpa, modi quaerat nesciunt molestias qui molestiae. Dolorum
+            incidunt praesentium optio?</div>
+
+
+        </div>
+
+        <p class="link-box"><a class="link-reserva" href="/contacto.html?reserva">Haz tu reserva ya!</a></p>
+
+      </div>
+    </div>
+
+  </section>
+
+  <!--footer-->
+  <div class="footer">
+
+    <div class="contenedor-logo-footer boxes">
+      <a href="#"><img id="logo-footer" src="img/bonta.png"></a>
+    </div>
+
+    <div class="contenedor-menu-footer boxes">
+      <div class="horarios boxes">
+        <div class="horario-cocina">
+          <div class="horario">Horario Cocina:</div>
+          <div class="horario2">Martes a Sabado <br>
+            de 12:00 a 17:00 <br>
+            de 19:00 a 23:00</div>
+        </div>
+
+        <div class="horario-local">
+          <div class="horario">Horario Local:</div>
+          <div class="horario2">Martes a Sabado <br>
+            de 12:00 a 00:00</div>
+        </div>
+      </div>
+
+      <div class="direccion-contacto boxes">
+        <div class="direccion1">
+          <div class="direccion2">Dirección:</div>
+          <div class="direccion3">C/ XXXXXXX, 24, 46022
+            Valencia</div>
+        </div>
+
+        <div class="contactos">
+          <div class="contacto">Contacto:</div>
+          <div class="contacto2">+34 XXXXXXXX
+            xxxx@xxxx.es</div>
+        </div>
+      </div>
+
+      <div class="redes-politicas boxes">
+        <div class="redes">
+          <div class="contenedor-redes">
+            <div class="redes-sociales">Redes Sociales:</div>
+            <div class="redes-sociales2">
+              <div class="facebook"><a href="https://es-es.facebook.com/" target="_blank"><i
+                    class='bx bxl-facebook'></i></a></div>
+              <div class="instagram"><a href="https://www.instagram.com/" target="_blank" class="social-media-icon"><i
+                    class='bx bxl-instagram'></i></a></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="politicas">
+          <button class="boton"><a href="politica_de_privacidad.html">POLÍTICA DE PRIVACIDAD Y AVISO
+              LEGAL</a></button>
+        </div>
+      </div>
+
+    </div>
+
+    <!--button-scroll-top-->
+
+    <div id="button-scroll-top"><i class='bx bx-chevron-up-square'></i></div>
+
+  </div>
+
+  <!-- The Modal -->
+  <div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <span onclick="closeModalIngredient()" class="close">&times;</span>
+      <div class="ingredients-list"></div>
+    </div>
+
+  </div>
+
+  <script src="js/cartascript.js"></script>
+</body>
+
+</html>

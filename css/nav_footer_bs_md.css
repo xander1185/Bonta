@@ -1,0 +1,287 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Monserrat, Helvetica, Arial, sans-serif;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  background-color: #d7d3c5;
+  padding-left: 50px;
+  padding-bottom: 10px;
+}
+
+ul {
+  display: block; /*para que actue en forma de bloque*/
+  float: left; /*para que todo se meta a la sx*/
+  list-style: none; /*para quitar los puntos de los items de la lista*/
+}
+
+ul li {
+  float: left;
+  margin: 10px;
+  padding: 2px;
+  font-size: 20px;
+  letter-spacing: 1.5px;
+}
+
+ul a {
+  color: black;
+  text-decoration: none;
+}
+
+ul a:hover {
+  color: white;
+}
+
+#logo {
+  float: left;
+  display: block;
+  margin-left: 30px; /*para que haya margen entre los item del menu y la imagen del logo*/
+  margin-right: 30px; /*para que haya margen entre los item del menu y la imagen del logo*/
+  margin-top: 20px;
+  /*transition: width 0.7s, height 0.7s, margin-right 0.7s, margin-top 0.7s;*/
+  width: 200px;
+  color: #ff4600;
+}
+
+/*footer*/
+
+.footer {
+  background-color: black;
+  width: 100%;
+  height: 350px;
+  padding-bottom: 0.1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor-menu-footer {
+  display: flex;
+  justify-content: baseline;
+}
+
+.contenedor-logo-footer {
+  padding: 5px;
+  width: 380px;
+}
+
+#logo-footer {
+  width: 350px;
+}
+
+.horarios {
+  padding: 5px;
+  width: 250px;
+  font-size: 20px;
+  letter-spacing: 1.5px;
+}
+
+.horario-cocina {
+  padding: 10px;
+}
+
+.horario {
+  color: #ff4600;
+}
+
+.horario2 {
+  color: white;
+}
+
+.horario-local {
+  padding: 10px;
+}
+
+.direccion-contacto {
+  padding: 5px;
+  width: 250px;
+  font-size: 20px;
+  letter-spacing: 1.5px;
+}
+
+.direccion1 {
+  padding: 10px;
+}
+
+.direccion2 {
+  color: #ff4600;
+}
+
+.direccion3 {
+  color: white;
+}
+
+.contactos {
+  padding: 10px;
+}
+
+.contacto {
+  color: #ff4600;
+}
+
+.contacto2 {
+  color: white;
+}
+
+.redes {
+  padding: 5px;
+  font-size: 20px;
+  letter-spacing: 1.5px;
+}
+
+.contenedor-redes {
+  padding: 10px;
+}
+
+.redes-sociales {
+  color: #ff4600;
+}
+
+.redes-sociales2 {
+  padding: 10px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.facebook {
+  padding: 5px;
+  margin-right: 10px;
+  width: 50px;
+}
+
+.instagram {
+  padding: 5px;
+  width: 50px;
+}
+
+.bxl-facebook {
+  color: #ff4600;
+  font-size: 30px;
+  border: 1px solid #ff4600;
+  border-radius: 80%;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.bxl-facebook:hover {
+  background: #faefeb;
+  color: #ff4600;
+}
+
+.bxl-instagram {
+  color: #ff4600;
+  font-size: 30px;
+  border: 1px solid #ff4600;
+  border-radius: 80%;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.bxl-instagram:hover {
+  background: #faefeb;
+  color: #ff4600;
+}
+
+.politicas {
+  padding: 10px;
+}
+
+.boton {
+  background-color: #272727;
+  color: #d7cecb;
+  padding: 5px;
+  cursor: pointer;
+  font-size: 10px;
+}
+
+/* button scroll top */
+
+#button-scroll-top {
+  position: fixed;
+  z-index: 999;
+  bottom: 2vh;
+  right: 20px;
+  width: 4rem;
+  height: 4rem;
+  font-size: 4rem;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+  background-color: transparent;
+  color: #ff4600;
+  transition: all 1s ease-out;
+  transform: scale(0);
+}
+
+#button-scroll-top:hover {
+  color: white;
+}
+
+/*boton hamburger*/
+
+.hamburger {
+  position: fixed;
+  top: 30px;
+  right: 60px;
+  font-size: 30px;
+  cursor: pointer;
+  border-radius: 10px;
+  visibility: hidden;
+  transform: translate(100%, 0);
+  z-index: 999;
+}
+
+.bx-menu:hover {
+  color: white;
+}
+
+/*-----menu desplegable------*/
+
+.menu-desplegable {
+  position: fixed;
+  width: 30vw;
+  height: 100%;
+  margin-top: 0;
+  right: 0;
+  letter-spacing: 1.5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: crimson;
+  transform: translate(100%, 0);
+  transition: transform 0.3s ease-in-out;
+  z-index: 998;
+}
+
+.menu-desplegable a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.menu-desplegable a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+.bxs-home-smile {
+  font-size: 20px;
+}
+
+.spread {
+  transform: translate(0, 0);
+}

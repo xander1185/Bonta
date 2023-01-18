@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Monserrat, Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  letter-spacing: 1.5px;
+}

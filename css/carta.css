@@ -1,0 +1,292 @@
+.fondo {
+  height: 310vh;
+  background-color: #d7d3c5;
+}
+
+/*icono menu nav lateral*/
+.food-menu-icon {
+  padding: 12px 0px 0px 12px;
+  font-size: 20px;
+  cursor: pointer;
+  position: fixed;
+  z-index: 1;
+  top: 5;
+}
+
+.verduras {
+  height: 400px;
+  background-image: linear-gradient(
+      to top,
+      rgba(250, 192, 112, 0.486) 0%,
+      rgba(171, 151, 40, 0.251) 100%
+    ),
+    url(../img/mediterranean-cuisine-.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.9;
+}
+
+.container-menu {
+  padding-top: 60px;
+  margin: 0px 190px 0px 150px;
+}
+
+.menu-section {
+  padding-bottom: 60px;
+}
+
+.section-title {
+  margin-bottom: 40px;
+  padding-bottom: 20px;
+}
+
+.carta {
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 1.5px;
+}
+
+.menu-items {
+  height: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.menu-item {
+  padding: 0px 0px 30px;
+  cursor: pointer;
+}
+
+.menu-item-title {
+  width: 292px;
+  height: 22px;
+  font-size: 20px;
+  letter-spacing: 1.5px;
+  margin: 0px 0px 9px;
+  text-align: left;
+}
+
+.menu-item-description {
+  width: 292px;
+  height: 20px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  margin: 8px 0px 0px 0px;
+  text-align: left;
+}
+
+.menu-item-price {
+  padding-left: 30px;
+  margin-bottom: 9px;
+}
+
+.menu-items2 {
+  height: 350px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.mc-cabecera {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.mc {
+  width: 250px;
+  padding: 5px;
+}
+
+.text-menu-completo {
+  width: 400px;
+  padding: 10px;
+}
+
+.menu-items3 {
+  padding: 10px;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.mm-cabecera {
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.mm-precio {
+  width: 130px;
+}
+
+.text-menu-grupos {
+  width: 400px;
+  padding: 10px;
+}
+
+.link-box {
+  text-align: center;
+}
+
+.link-reserva {
+  text-decoration: none;
+  color: #ff4600;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+@media (max-width: 1233px) {
+  .menu-items {
+    height: 600px;
+  }
+
+  .fondo {
+    height: 330vh;
+  }
+}
+
+@media (max-width: 1157px) {
+  .fondo {
+    height: 365vh;
+  }
+
+  .menu-items2 {
+    height: 600px;
+  }
+
+  .footer {
+    flex-direction: column;
+  }
+
+  #button-scroll-top {
+    font-size: 3rem;
+    bottom: 1vh;
+    right: 1px;
+  }
+}
+
+@media (max-width: 1105px) {
+  .menu {
+    display: none;
+  }
+
+  .menu-desplegable {
+    width: 375px;
+  }
+
+  .hamburger {
+    visibility: visible;
+  }
+
+  .verduras {
+    background-attachment: initial;
+  }
+}
+
+@media (max-width: 1000px) {
+  .container-menu {
+    padding: 60px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .menu-items {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+@media (max-width: 780px) {
+  .menu-items {
+    height: 800px;
+  }
+
+  .fondo {
+    height: 390vh;
+  }
+}
+
+@media (max-width: 760px) {
+  .fondo {
+    height: 410vh;
+  }
+
+  .menu-desplegable {
+    width: 100%;
+  }
+
+  .menu-items {
+    height: 1000px;
+  }
+
+  .footer {
+    height: 700px;
+  }
+
+  .contenedor-menu-footer {
+    flex-direction: column;
+  }
+
+  #logo-footer {
+    width: 250px;
+  }
+
+  .contenedor-logo-footer {
+    width: 280px;
+  }
+}
+
+@media (max-width: 500px) {
+  .fondo {
+    height: 430vh;
+  }
+
+  .text-menu-completo {
+    width: 290px;
+  }
+
+  .carta {
+    text-align: center;
+  }
+
+  .menu-items {
+    padding-left: 20px;
+  }
+
+  .mc-cabecera35 {
+    margin-top: 20px;
+  }
+
+  .carta-3 {
+    margin-top: 80px;
+    padding-top: 50px;
+  }
+
+  .section-title {
+    margin: 0;
+  }
+
+  .text-menu-grupos {
+    width: 290px;
+  }
+}
+
+@media (max-width: 340px) {
+  .fondo {
+    height: auto;
+  }
+}

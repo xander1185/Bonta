@@ -1,0 +1,184 @@
+.fondo {
+  height: 260vh;
+  background-color: #d7d3c5;
+}
+
+.basilico {
+  height: 300px;
+  background-image: linear-gradient(
+      to top,
+      rgba(250, 192, 112, 0.486) 0%,
+      rgba(171, 151, 40, 0.251) 100%
+    ),
+    url(../img/basilico2.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.9;
+}
+
+.cuadro {
+  margin: 20px;
+}
+
+.cuadro1 {
+  padding: 60px 20px 20px 20px;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.box_foto1 {
+  width: 40%;
+}
+
+.foto1 {
+  width: 70%;
+  object-fit: cover;
+}
+
+.headboard {
+  color: #ff4600;
+}
+
+.cuadro_texto {
+  width: 400px;
+  font-size: 15px;
+  letter-spacing: 1.5px;
+}
+
+.cuadro_invisible {
+  display: none;
+  margin-top: 50px;
+  padding-top: 50px;
+}
+
+.box_foto_invisible {
+  width: auto;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.foto_invisible {
+  width: 70%;
+  object-fit: cover;
+}
+
+.cuadro_texto_invisible {
+  width: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.texto_invisible {
+  width: 400px;
+  text-align: justify;
+  font-size: 15px;
+  letter-spacing: 1.5px;
+}
+
+@media (max-width: 1285px) {
+  .fondo {
+    height: 230vh;
+  }
+}
+
+@media (max-width: 1157px) {
+  .footer {
+    flex-direction: column;
+  }
+
+  #button-scroll-top {
+    font-size: 3rem;
+    bottom: 1vh;
+    right: 1px;
+  }
+}
+
+@media (max-width: 1105px) {
+  .menu {
+    display: none;
+  }
+  .menu-desplegable {
+    width: 375px;
+  }
+
+  .hamburger {
+    visibility: visible;
+  }
+
+  .basilico {
+    background-attachment: initial;
+  }
+
+  .fondo {
+    height: 210vh;
+  }
+}
+
+@media (max-width: 1000px) {
+  .fondo {
+    height: 220vh;
+  }
+
+  .box_foto1 {
+    width: 60%;
+  }
+}
+
+@media (max-width: 870px) {
+  .fondo {
+    height: 200vh;
+  }
+}
+
+@media (max-width: 760px) {
+  .cuadro {
+    display: none;
+  }
+
+  .cuadro_invisible {
+    display: revert;
+  }
+
+  .fondo {
+    height: 170vh;
+  }
+
+  .menu-desplegable {
+    width: 100%;
+  }
+
+  .footer {
+    height: 700px;
+  }
+
+  .contenedor-menu-footer {
+    flex-direction: column;
+  }
+
+  #logo-footer {
+    width: 250px;
+  }
+
+  .contenedor-logo-footer {
+    width: 280px;
+  }
+}
+
+@media (max-width: 587px) {
+  .foto_invisible {
+    width: 60%;
+    object-fit: cover;
+  }
+
+  .texto_invisible {
+    width: 200px;
+    text-align: justify;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+  }
+}

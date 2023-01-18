@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home Page</title>
+
+  <!--link para css-->
+  <link rel="stylesheet" href="css/index.css">
+
+  <!--link para scrollreveal-->
+  <script src="js/scrollreveal.js"></script>
+
+  <!--script para la libreria jquery-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+  <!--link para los iconos de boxicons-->
+  <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+  <!--link para la fuente montserrat-->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+  <header>
+    <!--Menu Mobile-->
+    <div class="container-header">
+      <div class="hamburger" id="hamburger"><i class='bx bx-menu'></i></div>
+      <nav class="menu-desplegable">
+        <a href="carta.html">CARTA Y MENU</a>
+        <a href="galeria.html">GALERIA</a>
+        <a href="eventos.html">EVENTOS</a>
+        <a href="contacto.html">CONTACTO Y RESERVAS</a>
+      </nav>
+      <!--Menu de navegación-->
+      <nav class="menu">
+        <ul>
+          <a href="carta.html">
+            <li>CARTA Y MENU</li>
+          </a>
+          <a href="galeria.html">
+            <li>GALERIA</li>
+          </a>
+        </ul>
+
+        <img id="logo" src="img/bonta.png">
+
+        <ul>
+          <a href="eventos.html">
+            <li>EVENTOS</li>
+          </a>
+          <a href="contacto.html">
+            <li>CONTACTO</li>
+          </a>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+
+  <!--Imagen de fondo - restaurante-->
+  <div id="fondo1">
+
+    <!--el logo que aparece cuando la pantalla es meno de 1280px-->
+    <div class="logo"><img id="logo-top" src="img/bonta.png"></div>
+    <div class="container-story-mobile">
+      <div id="container-story">
+        Historia: <br>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias repudiandae iure quis modi dolore error
+        eius, in earum libero nulla reiciendis similique dignissimos, aspernatur nobis doloribus impedit minima! Sit,
+        obcaecati.
+        Quos necessitatibus magnam fugiat similique, culpa vel.
+      </div>
+    </div>
+
+    <!--banner de cookies-->
+    <div class="aviso-cookies" id="aviso-cookies">
+      <img class="galleta" src="./img/cookie.svg" alt="Galleta">
+      <h3 class="titulo">Cookies</h3>
+      <p class="parrafo">Utilizamos cookies propias y de terceros para mejorar nuestros servicios.</p>
+      <button class="boton" id="btn-aceptar-cookies">De acuerdo</button>
+      <a class="enlace" href="aviso_de_cookies.html">Aviso de Cookies</a>
+    </div>
+    <div class="fondo-aviso-cookies" id="fondo-aviso-cookies"></div>
+
+  </div>
+
+  <!--Imagen de fondo - pasta-->
+  <section id="fondo2">
+    <!--Lema y caja de texto historia restaurante-->
+    <div id="container" class="trasladar">
+      <h1 class="bienvenido">BIENVENIDO</h1>
+    </div>
+    <div id="container2" class="trasladar">
+      <h1 class="dove">DOVE C'E' PASTA C'E' CASA</h1>
+    </div>
+    <div id="container3" class="animado">
+      <p id="nuestraHistoria">Nuestra Historia: <br><br>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione ut molestiae hic cupiditate ullam aut maiores
+        temporibus distinctio corporis deserunt. Sint ab eius voluptatem dolor quia, explicabo blanditiis delectus hic?
+        Cum aut reiciendis, error cumque tempore, eligendi quasi impedit recusandae facilis at, itaque rerum! Nam ipsum
+        ipsam alias debitis praesentium quas, adipisci earum quod aspernatur dolorum suscipit provident magnam eius.
+        Dolor quae tenetur deserunt fuga. Aperiam quo laborum et! Dolores, dolorum nihil sequi quis quia consequuntur
+        quasi vel laboriosam ipsa aliquid? Quae eos nihil hic? Ullam nobis fugit numquam quisquam.
+        Quas, dolorem natus magnam, dicta ab, obcaecati autem id praesentium nobis dolorum ea necessitatibus! Adipisci
+        libero doloremque, nam, vel laudantium dignissimos odio unde harum quibusdam quisquam ea porro ratione illum?
+      </p>
+    </div>
+  </section>
+
+  <!--Fondo blanco-->
+  <section id="fondo3">
+    <!--Caja texto y img 2 restaurante-->
+    <div id="box-texto2" class="animado">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur sequi culpa neque cum! Distinctio minima
+        omnis vero excepturi, blanditiis aliquid nulla ex provident, quisquam facilis, totam culpa voluptatem. Officia,
+        iusto.
+        Sit itaque quae obcaecati a debitis. Ex ad asperiores quaerat cum blanditiis velit quibusdam inventore sapiente
+        sit autem non.
+      </p>
+    </div>
+    <div id="imgrest2" class="animado"><img src="img/rest2.jpg"></div>
+  </section>
+
+  <!--footer-->
+  <div class="footer">
+
+    <div class="contenedor-logo-footer boxes">
+      <a href="index.html"><img id="logo-footer" src="img/bonta.png"></a>
+    </div>
+
+    <div class="contenedor-menu-footer boxes">
+      <div class="horarios boxes">
+        <div class="horario-cocina">
+          <div class="horario">Horario Cocina:</div>
+          <div class="horario2">Martes a Sabado <br>
+            de 12:00 a 17:00 <br>
+            de 19:00 a 23:00</div>
+        </div>
+
+        <div class="horario-local">
+          <div class="horario">Horario Local:</div>
+          <div class="horario2">Martes a Sabado <br>
+            de 12:00 a 00:00</div>
+        </div>
+      </div>
+
+      <div class="direccion-contacto boxes">
+        <div class="direccion1">
+          <div class="direccion2">Dirección:</div>
+          <div class="direccion3">C/ XXXXXXX, 24, 46022
+            Valencia</div>
+        </div>
+
+        <div class="contactos">
+          <div class="contacto">Contacto:</div>
+          <div class="contacto2">+34 XXXXXXXX
+            xxxx@xxxx.es</div>
+        </div>
+      </div>
+
+      <div class="redes-politicas boxes">
+        <div class="redes">
+          <div class="contenedor-redes">
+            <div class="redes-sociales">Redes Sociales:</div>
+            <div class="redes-sociales2">
+              <div class="facebook"><a href="https://es-es.facebook.com/" target="_blank"><i
+                    class='bx bxl-facebook'></i></a></div>
+              <div class="instagram"><a href="https://www.instagram.com/" target="_blank" class="social-media-icon"><i
+                    class='bx bxl-instagram'></i></a></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="politicas">
+          <button class="boton"><a href="politica_de_privacidad.html">POLÍTICA DE PRIVACIDAD Y AVISO
+              LEGAL</a></button>
+        </div>
+      </div>
+
+    </div>
+
+    <!--button-scroll-top-->
+
+    <div id="button-scroll-top"><i class='bx bx-chevron-up-square'></i></div>
+
+  </div>
+
+
+
+  <script src="js/index.js"></script>
+
+</body>
+
+</html>
